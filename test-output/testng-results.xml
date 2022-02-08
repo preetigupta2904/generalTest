@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Verify User is successfully logged in and performs search]]>
+    </line>
+    <line>
+      <![CDATA[Verify on for search item page]]>
+    </line>
+    <line>
+      <![CDATA[Verify on next page]]>
+    </line>
+    <line>
+      <![CDATA[Verify that page is loaded with modified search ]]>
+    </line>
+    <line>
+      <![CDATA[Verify User is able see search history section]]>
+    </line>
+    <line>
+      <![CDATA[Verify on for search item page]]>
+    </line>
+    <line>
+      <![CDATA[Verify on next page]]>
+    </line>
+    <line>
+      <![CDATA[Verify that page is loaded with modified search ]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Search bar is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Verify No Result Found Page]]>
+    </line>
+    <line>
+      <![CDATA[Verify on for search item page]]>
+    </line>
+    <line>
+      <![CDATA[Verify that Related Search section appears]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Search bar is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Verify upto 10 matching items are displayed in autosuggestion]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Search bar is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Verify sorting options]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-07T23:52:44 GMT" name="Practice Suite" finished-at="2022-02-07T23:53:48 GMT" duration-ms="63532">
+    <groups>
+      <group name="P0">
+        <method signature="searchTestUI.testLoginUserSearchHistory(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" name="testLoginUserSearchHistory" class="uiTest.searchTestUI"/>
+        <method signature="searchTestUI.testNextPageOfSearchPage(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" name="testNextPageOfSearchPage" class="uiTest.searchTestUI"/>
+      </group> <!-- P0 -->
+      <group name="Regression">
+        <method signature="searchTestUI.testLoginUserSearchHistory(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" name="testLoginUserSearchHistory" class="uiTest.searchTestUI"/>
+        <method signature="searchTestUI.testNextPageOfSearchPage(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" name="testNextPageOfSearchPage" class="uiTest.searchTestUI"/>
+        <method signature="searchTestUI.testNoResultsPage()[pri:0, instance:uiTest.searchTestUI@611889f4]" name="testNoResultsPage" class="uiTest.searchTestUI"/>
+        <method signature="searchTestUI.testProductRelatedSearchSection()[pri:0, instance:uiTest.searchTestUI@611889f4]" name="testProductRelatedSearchSection" class="uiTest.searchTestUI"/>
+        <method signature="searchTestUI.testSearchBar_autoSuggestiontLength(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" name="testSearchBar_autoSuggestiontLength" class="uiTest.searchTestUI"/>
+        <method signature="searchTestUI.testSortSearchresults(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" name="testSortSearchresults" class="uiTest.searchTestUI"/>
+      </group> <!-- Regression -->
+      <group name="Unit">
+        <method signature="searchTestUI.testLoginUserSearchHistory(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" name="testLoginUserSearchHistory" class="uiTest.searchTestUI"/>
+        <method signature="searchTestUI.testNextPageOfSearchPage(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" name="testNextPageOfSearchPage" class="uiTest.searchTestUI"/>
+        <method signature="searchTestUI.testNoResultsPage()[pri:0, instance:uiTest.searchTestUI@611889f4]" name="testNoResultsPage" class="uiTest.searchTestUI"/>
+        <method signature="searchTestUI.testProductRelatedSearchSection()[pri:0, instance:uiTest.searchTestUI@611889f4]" name="testProductRelatedSearchSection" class="uiTest.searchTestUI"/>
+        <method signature="searchTestUI.testSearchBar_autoSuggestiontLength(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" name="testSearchBar_autoSuggestiontLength" class="uiTest.searchTestUI"/>
+        <method signature="searchTestUI.testSortSearchresults(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" name="testSortSearchresults" class="uiTest.searchTestUI"/>
+      </group> <!-- Unit -->
+    </groups>
+    <test started-at="2022-02-07T23:52:44 GMT" name="Test Basics 1" finished-at="2022-02-07T23:53:48 GMT" duration-ms="63532">
+      <class name="uiTest.searchTestUI">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:52:44 GMT" name="setExtent" finished-at="2022-02-07T23:52:45 GMT" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:52:45 GMT" name="launchBrowser" finished-at="2022-02-07T23:52:49 GMT" duration-ms="4377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://amazon.co.uk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testLoginUserSearchHistory(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:52:49 GMT" name="testLoginUserSearchHistory" description="Verify that user is able to see search history" data-provider="SearchData" finished-at="2022-02-07T23:53:05 GMT" duration-ms="15902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Masks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify User is successfully logged in and performs search]]>
+            </line>
+            <line>
+              <![CDATA[Verify on for search item page]]>
+            </line>
+            <line>
+              <![CDATA[Verify on next page]]>
+            </line>
+            <line>
+              <![CDATA[Verify that page is loaded with modified search ]]>
+            </line>
+            <line>
+              <![CDATA[Verify User is able see search history section]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginUserSearchHistory -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:53:05 GMT" name="tearDown" finished-at="2022-02-07T23:53:06 GMT" duration-ms="540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginUserSearchHistory status=SUCCESS method=searchTestUI.testLoginUserSearchHistory(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4] output=Verify User is successfully logged in and performs search]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:53:06 GMT" name="launchBrowser" finished-at="2022-02-07T23:53:10 GMT" duration-ms="4523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://amazon.co.uk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testNextPageOfSearchPage(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:53:10 GMT" name="testNextPageOfSearchPage" description="Verify that next page of search page is loaded successfully" data-provider="SearchData" finished-at="2022-02-07T23:53:16 GMT" duration-ms="6406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Masks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify on for search item page]]>
+            </line>
+            <line>
+              <![CDATA[Verify on next page]]>
+            </line>
+            <line>
+              <![CDATA[Verify that page is loaded with modified search ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testNextPageOfSearchPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:53:16 GMT" name="tearDown" finished-at="2022-02-07T23:53:17 GMT" duration-ms="488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNextPageOfSearchPage status=SUCCESS method=searchTestUI.testNextPageOfSearchPage(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4] output=Verify on for search item page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:53:17 GMT" name="launchBrowser" finished-at="2022-02-07T23:53:22 GMT" duration-ms="4657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://amazon.co.uk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testNoResultsPage()[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:53:22 GMT" name="testNoResultsPage" description="Verify that No results Page appears for non matching string entered" finished-at="2022-02-07T23:53:23 GMT" duration-ms="1555" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify the Search bar is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Verify No Result Found Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testNoResultsPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:53:23 GMT" name="tearDown" finished-at="2022-02-07T23:53:24 GMT" duration-ms="377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNoResultsPage status=SUCCESS method=searchTestUI.testNoResultsPage()[pri:0, instance:uiTest.searchTestUI@611889f4] output=Verify the Search bar is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:53:24 GMT" name="launchBrowser" finished-at="2022-02-07T23:53:30 GMT" duration-ms="6255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://amazon.co.uk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testProductRelatedSearchSection()[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:53:30 GMT" name="testProductRelatedSearchSection" description="Verify that Product Related Search Section appears" finished-at="2022-02-07T23:53:33 GMT" duration-ms="3238" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify on for search item page]]>
+            </line>
+            <line>
+              <![CDATA[Verify that Related Search section appears]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testProductRelatedSearchSection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:53:33 GMT" name="tearDown" finished-at="2022-02-07T23:53:34 GMT" duration-ms="463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductRelatedSearchSection status=SUCCESS method=searchTestUI.testProductRelatedSearchSection()[pri:0, instance:uiTest.searchTestUI@611889f4] output=Verify on for search item page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:53:34 GMT" name="launchBrowser" finished-at="2022-02-07T23:53:37 GMT" duration-ms="3542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://amazon.co.uk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testSearchBar_autoSuggestiontLength(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:53:37 GMT" name="testSearchBar_autoSuggestiontLength" description="Verify that search bar exist and displays upto 10 matching items for a string entered" data-provider="SearchData" finished-at="2022-02-07T23:53:38 GMT" duration-ms="984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Masks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify the Search bar is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Verify upto 10 matching items are displayed in autosuggestion]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSearchBar_autoSuggestiontLength -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:53:38 GMT" name="tearDown" finished-at="2022-02-07T23:53:38 GMT" duration-ms="440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchBar_autoSuggestiontLength status=SUCCESS method=searchTestUI.testSearchBar_autoSuggestiontLength(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4] output=Verify the Search bar is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:53:38 GMT" name="launchBrowser" finished-at="2022-02-07T23:53:42 GMT" duration-ms="3875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://amazon.co.uk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testSortSearchresults(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:53:42 GMT" name="testSortSearchresults" description="Verify that search bar exist and displays upto 10 matching items for a string entered" data-provider="SearchData" finished-at="2022-02-07T23:53:47 GMT" duration-ms="4800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Masks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify the Search bar is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Verify sorting options]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSortSearchresults -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:53:47 GMT" name="tearDown" finished-at="2022-02-07T23:53:48 GMT" duration-ms="413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSortSearchresults status=SUCCESS method=searchTestUI.testSortSearchresults(java.lang.String)[pri:0, instance:uiTest.searchTestUI@611889f4] output=Verify the Search bar is displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:uiTest.searchTestUI@611889f4]" started-at="2022-02-07T23:53:48 GMT" name="endReport" finished-at="2022-02-07T23:53:48 GMT" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- uiTest.searchTestUI -->
+    </test> <!-- Test Basics 1 -->
+  </suite> <!-- Practice Suite -->
+</testng-results>
